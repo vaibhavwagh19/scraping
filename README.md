@@ -1,4 +1,3 @@
-# Scraping
 # Wikipedia Recent Articles Scraper
 
 ## Description
@@ -7,11 +6,15 @@ This Python script serves as a web scraper that utilizes the Wikipedia API to re
 
 ## How It Works
 
-- The script defines the Wikipedia API endpoint and sets parameters, including the action, format, and the number of recent changes to retrieve.
-- It sends an HTTP GET request to the Wikipedia API using the `requests.get()` method.
-- If the request is successful (HTTP status code 200), it parses the JSON response and extracts the titles of the most recent articles.
-- The script then prints these titles to the console.
-- In case of any errors during the API request, appropriate error messages are displayed.
+1. **API Endpoint Definition**: The script defines the Wikipedia API endpoint and sets parameters, including the action, format, and the number of recent articles to retrieve.
+
+2. **HTTP Request**: It sends an HTTP GET request to the Wikipedia API using the `requests.get()` method.
+
+3. **Response Handling**: If the request is successful (HTTP status code 200), it parses the JSON response and extracts the titles of the most recent articles.
+
+4. **Title Display**: The script then prints these titles to the console, making it easy for users to see the latest content on English Wikipedia.
+
+5. **Error Handling**: In case of any errors during the API request, appropriate error messages are displayed, ensuring a smooth and informative user experience.
 
 ## Usage
 
