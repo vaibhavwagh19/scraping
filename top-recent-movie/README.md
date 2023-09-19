@@ -35,6 +35,7 @@ After following the installation steps, you can run the script by executing the 
 
 ```bash
 python movie.py
+```
 
 The script will fetch data from the Wikipedia page and display information about the top 10 American films of 2023.
 
