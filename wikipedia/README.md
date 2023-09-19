@@ -2,7 +2,7 @@
 
 ## Overview
 
-This Python script, `wikibot.py`, is a web scraper designed to extract and display information from Wikipedia pages. It utilizes the `requests` library for making HTTP requests and `BeautifulSoup` for parsing HTML content. The primary purpose of this script is to scrape data from Wikipedia infoboxes and retrieve the first two paragraphs of text from a specified Wikipedia page.
+This Python script, `wikipedia.py`, is a web scraper designed to extract and display information from Wikipedia pages. It utilizes the `requests` library for making HTTP requests and `BeautifulSoup` for parsing HTML content. The primary purpose of this script is to scrape data from Wikipedia infoboxes and retrieve the first two paragraphs of text from a specified Wikipedia page.
 
 ## Features
 
