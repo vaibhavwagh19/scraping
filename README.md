@@ -1,4 +1,4 @@
-# scraping
+# Scraping
 # Wikipedia Recent Articles Scraper
 
 ## Description
